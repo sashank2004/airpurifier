@@ -46,3 +46,14 @@
   background-color: rgba(242, 235, 235, 0.381);
   margin-right: 5px;
 }
+@media screen and (max-width:1000px){
+  .technology>h1{
+    font-size: 25px;
+  }
+  .technology{
+    padding: 0;
+  }
+  .wrapper .item{
+    min-width: 220px;
+  }
+}

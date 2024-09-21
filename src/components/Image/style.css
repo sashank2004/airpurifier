@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
 }
 /* Content styles for text and buttons */
 .content {
@@ -45,6 +45,9 @@
 .shop-btn {
   background-color: #4CAF50; /* Green */
   color: white;
+}
+.br{
+  display: none;
 }
 
 .shop-btn:hover {
@@ -117,10 +120,13 @@
     font-size: 1.5rem;
   }
   .subtitle {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
   .shop-btn, .learn-btn {
     font-size: 0.8rem;
     padding: 4px 8px;
+  }
+  .br{
+    display:flex;
   }
 }
