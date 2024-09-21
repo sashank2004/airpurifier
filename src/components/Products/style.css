@@ -1,0 +1,12 @@
+.products{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products>h2{
+  margin-top: 35px;
+}
+.products-categories{
+  font-size: 40px;
+}
