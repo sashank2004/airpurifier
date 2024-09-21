@@ -3,10 +3,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .products>h2{
   margin-top: 35px;
 }
 .products-categories{
   font-size: 40px;
+}
+@media screen and (max-width:500px){
+  .products>h1{
+    font-size: 30px;
+  }
 }
