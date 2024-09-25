@@ -156,6 +156,9 @@ body {
     right: 0;
   }
   .slider-container .review-img{
-    height: 200px;
+    height: 250px;
+  }
+  .testimonial-container{
+    width: 100%;
   }
 }
