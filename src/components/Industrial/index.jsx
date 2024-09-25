@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import './style.css'
 import ProductItem from './ProductItem.jsx';
 import { INDUSTRIAL_DATA } from '../../industrialdata.js';
-import './style.css';
+import './industrial.css';
 
 const Industrial = () => {
   const [products,setProducts]=useState(INDUSTRIAL_DATA);

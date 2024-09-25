@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { RESIDENTIAL_DATA } from '../../residentialdata'
-import './style.css'
+import './resdetail.css'
 import advanced from '../../assets/advanced.png'
 import adaptable from '../../assets/adaptable.png'
 import maintanence from '../../assets/maintanence.jpeg'

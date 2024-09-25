@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './tech.css'
 import purifier from '../../assets/air.avif';
 import efficiency from '../../assets/efficiency.jpeg'
 import Purification from '../../assets/purification.png'

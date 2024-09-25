@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './image.css'
 import purifier from '../../assets/purifier.jpg';
 
 const Image = () => {
@@ -13,7 +13,9 @@ const Image = () => {
           <button onClick={()=>{
             window.location="./products"
           }} className="shop-btn">Shop Now</button>
-          <button className="learn-btn">Learn More</button>
+          <button onClick={()=>{
+            window.location="./aboutus"
+          }} className="learn-btn">Learn More</button>
         </div>
       </div>
       <div className="img">

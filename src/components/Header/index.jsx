@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './style.css';
+import './header.css';
 import logo from "../../assets/microsoft.png";
 import menu from '../../assets/menuiconblack.png';
 import contactIcon from "../../assets/contact.png";
@@ -19,8 +19,7 @@ const Header = () => {
         <div className="desktopNav">
           <div className="navItem" onClick={() => window.location = "/"}>Home</div>
           <div className="navItem" onClick={() => window.location = "/products"}>Products</div>
-          <div className="navItem" onClick={() => window.location = "/technology"}>Technology</div>
-          <div className="navItem" onClick={() => window.location = "/about"}>About Us</div>
+          <div className="navItem" onClick={() => window.location = "/aboutus"}>About Us</div>
         </div>
 
         <button className="contactBtn" onClick={() => window.location = "/contact"}>
@@ -39,11 +38,7 @@ const Header = () => {
           setShowMenu(false);
         }}>Products</div>
         <div onClick={() => {
-          window.location = "/technology";
-          setShowMenu(false);
-        }}>Technology</div>
-        <div onClick={() => {
-          window.location = "/about";
+          window.location = "/aboutus";
           setShowMenu(false);
         }}>About Us</div>
         <div onClick={() => {

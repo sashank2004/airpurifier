@@ -6,6 +6,7 @@ import Landing from './components/Landing';
 import IndustrialDetail from './components/IndustrialDetail';
 import ResidentialDetail from './components/ResidentialDetail';
 import Products from './components/Products';
+import Aboutus from './components/Aboutus';
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
         <Route path={"/industrial/:id"} element={<IndustrialDetail/>}/>
         <Route path={"/residential/:id"} element={<ResidentialDetail/>}/>
         <Route path={"/products"} element={<Products/>}/>
+        <Route path={"/aboutus"} element={<Aboutus/>}/>
       </Routes>
     </Router>
     </div>

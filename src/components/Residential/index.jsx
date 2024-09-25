@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import './style.css'
+import './residential.css'
 import ProductItem from './ProductItem.jsx';
 import { RESIDENTIAL_DATA } from '../../residentialdata.js';
-import './style.css';
 
 const Residential = () => {
   const [products,setProducts]=useState(RESIDENTIAL_DATA);

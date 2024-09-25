@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './products.css';
 import Industrial from '../Industrial';
 import Residential from '../Residential';
 

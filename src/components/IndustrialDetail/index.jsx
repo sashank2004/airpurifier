@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { INDUSTRIAL_DATA } from '../../industrialdata'
-import './style.css'
+import './inddetail.css'
 import advanced from '../../assets/advanced.png'
 import adaptable from '../../assets/adaptable.png'
 import maintanence from '../../assets/maintanence.jpeg'

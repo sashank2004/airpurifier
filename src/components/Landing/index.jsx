@@ -3,6 +3,7 @@ import './style.css';
 import Image from '../Image';
 import Technology from '../Technology';
 import Products from '../Products';
+import Testimonial from '../Testimonial';
 
 const Landing = () => {
   return (
@@ -10,6 +11,7 @@ const Landing = () => {
       <Image/>
       <Technology/>
       <Products/>
+      <Testimonial/>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import arrow from '../../assets/arrow_outward.png';
-import './style.css'
+import './residential.css'
 
 const ProductItem = ({productID,category,title,description,thumbnail}) => {
   const shortDescription =description.length > 145 ? description.substr(0,145)+'...' : description;
