@@ -1,0 +1,32 @@
+.faqs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 231, 231);
+  padding: 0 5%;
+  margin-top: 150px;
+  padding-bottom: 40px;
+}
+.faq{
+ background-color: white;
+}
+.ques{
+  cursor: pointer;
+  padding:20px;
+}
+.ques,.answer{
+  border-style: solid;
+  border-color: rgb(228, 218, 218);
+}
+.answer{
+  border-top: none;
+  padding: 30px;
+  padding-bottom: 50px;
+  color:rgb(103, 97, 97);
+}
+.collection{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import Image from '../Image';
 import Technology from '../Technology';
 import Products from '../Products';
 import Testimonial from '../Testimonial';
+import FAQS from '../FAQS';
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
       <Technology/>
       <Products/>
       <Testimonial/>
+      <FAQS/>
     </div>
   );
 };
