@@ -1,8 +1,8 @@
-import Thumbnail1 from './assets/blog2.jpg'
-import Thumbnail2 from './assets/blog3.jpg'
-import Thumbnail3 from './assets/blog12.jpg'
-import Thumbnail4 from './assets/blog2.jpg'
-import Thumbnail5 from './assets/blog3.jpg'
+import Thumbnail1 from './assets/image1.jpg'
+import Thumbnail2 from './assets/image2.jpg'
+import Thumbnail3 from './assets/image3.jpg'
+import Thumbnail4 from './assets/image4.jpg'
+import Thumbnail5 from './assets/image5.jpg'
 
 export const DUMMY_POSTS = [
   {
