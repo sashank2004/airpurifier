@@ -19,6 +19,7 @@ const Header = () => {
         <div className="desktopNav">
           <div className="navItem" onClick={() => window.location = "/"}>Home</div>
           <div className="navItem" onClick={() => window.location = "/products"}>Products</div>
+          <div className="navItem" onClick={() => window.location = "/blogs"}>Blogs</div>
           <div className="navItem" onClick={() => window.location = "/aboutus"}>About Us</div>
         </div>
 
@@ -37,6 +38,10 @@ const Header = () => {
           window.location = "/products";
           setShowMenu(false);
         }}>Products</div>
+        <div onClick={() => {
+          window.location = "/blogs";
+          setShowMenu(false);
+        }}>Blogs</div>
         <div onClick={() => {
           window.location = "/aboutus";
           setShowMenu(false);

@@ -7,6 +7,8 @@ import IndustrialDetail from './components/IndustrialDetail';
 import ResidentialDetail from './components/ResidentialDetail';
 import Products from './components/Products';
 import Aboutus from './components/Aboutus';
+import Blogs from "./components/Blogs";
+import PostDetail from "./components/PostDetail";
 
 function App() {
  
@@ -20,6 +22,8 @@ function App() {
         <Route path={"/residential/:id"} element={<ResidentialDetail/>}/>
         <Route path={"/products"} element={<Products/>}/>
         <Route path={"/aboutus"} element={<Aboutus/>}/>
+        <Route path={"/blogs"} element={<Blogs/>}/>
+        <Route path={"/posts/:id"} element={<PostDetail/>}/>
       </Routes>
     </Router>
     </div>
