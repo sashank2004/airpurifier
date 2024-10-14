@@ -7,9 +7,7 @@ const Aboutus = () => {
 
   return (
     <div className='aboutus-container'>
-      <div className='heading'>
-        <span className='heading-aboutus'>About Us</span>
-      </div>
+      
 
       <div className='aboutus-scroll'>
         <Link onClick={() => setActiveSite('introduction')} activeClass="active" to="introduction" spy={true} smooth={true} offset={-100} duration={500}>

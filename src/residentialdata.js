@@ -9,7 +9,7 @@ export const RESIDENTIAL_DATA=[
     thumbnail:residential1,
     title:'Indoor Air Purifier (IAP – 150)',
     category:'Residential & Commercial Air Purifiers',
-    desc:'Introducing the IAP-150 by Panjurli Labs – an affordable solution enhancing air quality in your living spaces. With an impressive 99.02% efficiency against PM 10 and PM 2.5 particles, this air purifier is a stalwart defender against airborne pollutants, ensuring your family breathes healthy air.',
+    desc:'Introducing the IAP-150 by Aabhar Envocare – an affordable solution enhancing air quality in your living spaces. With an impressive 99.02% efficiency against PM 10 and PM 2.5 particles, this air purifier ensures your family breathes healthy and clean air, helping to combat airborne pollutants effectively.',
     content: `
   <table>
     <thead>
@@ -49,7 +49,7 @@ export const RESIDENTIAL_DATA=[
     thumbnail:residential2,
     title:'Indoor Air Purifier (IAP – 300)',
     category:'Residential & Commercial Air Purifiers',
-    desc:'Introducing the IAP-300, a groundbreaking indoor air purifier by Panjurli Labs that combines affordability with unparalleled efficiency in eliminating airborne particles. This state-of-the-art air purifier boasts an impressive 99.02% effectiveness in removing PM 10 and PM 2.5 particles, providing a breath of fresh air for your living spaces.',
+    desc:'The IAP-300 by Aabhar Envocare delivers superior air quality with 99.02% efficiency in eliminating PM 10 and PM 2.5 particles, ideal for mid-sized homes and commercial spaces. This highly efficient and cost-effective air purifier is perfect for ensuring a clean and healthy indoor environment.',
     content: `
   <table>
     <thead>
@@ -89,7 +89,7 @@ export const RESIDENTIAL_DATA=[
     thumbnail:residential3,
     title:'Indoor Air Purifier (IAP – 400)',
     category:'Residential & Commercial Air Purifiers',
-    desc:'The Indoor Air Purifier (IAP-400) by Panjurli Labs emerges as a formidable solution for maintaining pristine air quality in spacious environments such as halls, classrooms, small auditoriums, office rooms, and hospitals. This cutting-edge air purification system addresses a common drawback found in traditional filters — the challenge of handling large volumes of air. While conventional filters may falter in the face of considerable air circulation, the IAP-400 from Panjurli Labs stands out as a powerhouse, efficiently catering to the needs of expansive spaces.',
+    desc:'The IAP-400 from Aabhar Envocare is designed for larger environments such as classrooms, office spaces, and hospitals. Built to handle higher air volumes with efficiency, this purifier ensures optimal air quality in spaces where traditional purifiers may struggle to maintain airflow and cleanliness.',
     content: `
   <table>
     <thead>
@@ -129,7 +129,7 @@ export const RESIDENTIAL_DATA=[
     thumbnail:residential4,
     title:'Large Volume Indoor Air Purifier (IAP – L Series)',
     category:'Residential & Commercial Air Purifiers',
-    desc:'In the pursuit of cleaner and healthier indoor environments, Panjurli Labs has revolutionized the air purification industry with its cutting edge Large Volume Indoor Air Purifier. Unveiling a powerful solution tailored for very large spaces, this air purifier stands as a beacon of innovation, addressing the shortcomings of traditional filters when it comes to handling substantial volumes of air.',
+    desc:'Aabhar Envocare’s IAP-L Series air purifiers are tailored to meet the needs of expansive residential and commercial spaces, delivering powerful air purification for large areas. This system handles substantial air volumes, ensuring that even the largest rooms are filled with clean, fresh air.',
     content: `
   <table>
     <thead>
@@ -180,6 +180,5 @@ export const RESIDENTIAL_DATA=[
     </tbody>
   </table>
 `
-
   }
-]
+];

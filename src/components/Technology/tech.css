@@ -10,7 +10,7 @@
 }
 
 .wrapper{
-  max-height: 300px;
+  max-height: 350px;
   border: 1px solid white;
   display: flex;
   overflow-x:auto;
