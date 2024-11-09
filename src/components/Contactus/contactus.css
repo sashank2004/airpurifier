@@ -1,0 +1,98 @@
+#contactPage{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.contactPageTitle{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contactDesc{
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactForm{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name,.email,.msg,.number{
+  font-size: medium;
+  width:100%;
+  max-width: 40rem;
+  margin:0.5rem;
+  padding: 0.5rem 1rem;
+  color:black;
+  border:none;
+  border-radius:0.5rem;
+  border-style: solid;
+  border-color: blue;
+  background: white;
+}
+
+.submitBtn{
+  background:white;
+  padding:0.75rem 3.5rem;
+  border-radius: 0.5rem;
+  margin:1rem 0;
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+
+}
+.submitBtn:active{
+  background-color: aqua;
+}
+@media screen and (max-width:600px){
+  .contactForm{
+    padding: 0 10px;
+  }
+}
+
+/* Styles for the popup */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Error style */
+.popup.error {
+  background-color: #f44336; /* Red background for errors */
+}
+
+/* Success style */
+.popup.success {
+  background-color: #4caf50; /* Green background for success */
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

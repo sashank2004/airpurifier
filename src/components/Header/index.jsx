@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
-import logo from "../../assets/microsoft.png";
+import logo from "../../assets/logopurifier.jpeg";
 import menu from '../../assets/menuiconblack.png';
 import contactIcon from "../../assets/contact.png";
 

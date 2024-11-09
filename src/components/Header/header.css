@@ -19,7 +19,7 @@
 }
 
 .logo {
-  height: 4rem;
+  height: 6rem;
   cursor: pointer;
 }
 
@@ -43,9 +43,9 @@
 .contactBtn {
   display: flex;
   align-items: center;
-  background-color: #007acc;
-  color: white;
-  padding: 0.5rem 1rem;
+  background-color: #78c0f1;
+  color: black;
+  padding: 1rem 1.5rem;
   border: none;
   border-radius: 25px;
   cursor: pointer;

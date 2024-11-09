@@ -12,10 +12,10 @@ const Image = () => {
         <div className="buttons">
           <button onClick={()=>{
             window.location="./products"
-          }} className="shop-btn">Shop Now</button>
+          }} className="shop-btn">Explore Now</button>
           <button onClick={()=>{
             window.location="./aboutus"
-          }} className="learn-btn">Learn More</button>
+          }} className="learn-btn">Know More</button>
         </div>
       </div>
       <div className="img">

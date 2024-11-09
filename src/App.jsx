@@ -9,6 +9,7 @@ import Products from './components/Products';
 import Aboutus from './components/Aboutus';
 import Blogs from "./components/Blogs";
 import PostDetail from "./components/PostDetail";
+import Contactus from "./components/Contactus"
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
         <Route path={"/aboutus"} element={<Aboutus/>}/>
         <Route path={"/blogs"} element={<Blogs/>}/>
         <Route path={"/posts/:id"} element={<PostDetail/>}/>
+        <Route path={"/contact"} element={<Contactus/>}/>
       </Routes>
     </Router>
     </div>
